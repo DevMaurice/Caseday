@@ -1,0 +1,17 @@
+body { 
+	padding-top: 100px; 
+	background: #4C6F7A !important;
+}
+.navbar-fixed-top {
+    min-height: 80px;
+}
+
+.navbar-fixed-top .navbar-collapse {
+    max-height: 80px;
+}
+
+@media (min-width: 768px) {
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 50px;
+    }
+}
